@@ -13,6 +13,11 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
-  }
+  },
+  mounted() {
+    let obj = {a:1}
+    console.log(obj?.a,'obj?.a')
+
+  },
 }
 </script>
